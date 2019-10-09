@@ -1,0 +1,41 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/nacos-server/.mvn/
+/nacos-server/mvnw
+/nacos-server/mvnw.cmd
+/nacos-server/nacos-server.iml
+/nacos-client/nacos-server.iml
+/nacos-client/.mvn/
+/nacos-client/nacos-client.iml
+/nacos-client/mvnw.cmd
+/nacos-client/mvnw
+/.mvn/
